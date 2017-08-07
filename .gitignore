@@ -12,4 +12,6 @@ rebel.xml
 .DS_Store
 *.iml
 .idea/
+quicktickets-dashboard.iml
+vaadin.charts.developer.license
 
