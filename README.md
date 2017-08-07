@@ -1,6 +1,22 @@
 Vaadin QuickTickets Dashboard Demo
 ==================================
 
+## Psst... Shortcut
+
+### For IntelliJ IDEA
+* Clone or fork the repository
+* Open the project with intelliJ IDEA and let it do its magic
+* Make sure that it has generated a file called ``` quicktickets-dashboard.iml ``` in the root of the project folder.
+* [![Get Vaadin Charts 4.0 Licence here](https://vaadin.com/directory#!addon/vaadin-charts)
+* Take note of the licence since it will be used for the WigetSets too
+* Once intelliJ IDEA has finished downloading the maven dependencies and indexing files, move over to the ``` Edit Run Configurations ``` window. its under ``` Run>Edit Configurations ``` in the toolbar menu
+* Click on the + (Add new configuration) and choose Maven.
+* Give a name for the new Run Config (Optional)
+* In the textbox labeled ``` Command Line ``` paste this in ``` -Dvaadin.charts.developer.license=3f500731-xxxx-0000-1111-a8630e89436c -Pproduction-mode jetty:run ```
+* Ps. replace the licence variable with your own
+* Save the configurations and run from the ``` Run ``` button in intelliJ IDEA
+## Resume...
+
 Responsive application demo/template built using only server-side Java with [Vaadin Framework](https://vaadin.com/framework). Showcasing big data, data visualization, drag 'n' drop and other Vaadin features.
 
 [![View the application](https://vaadin.com/documents/10187/2487938/Dashboard+Demo+2014/a37b2c4d-c941-48fe-97c3-ad5a60586882?t=1412769929183)](http://demo.vaadin.com/dashboard)
